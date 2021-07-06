@@ -1,0 +1,28 @@
+{
+    "name": "mamura/brokeragex-tract",
+    "description": "Brokerage Notes Reader",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Mota",
+            "email": "marcio.mota@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "app\\":"app"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "^3.185",
+        "mamura/miuxa": "0.0.2"
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/mamura/Miuxa"
+        }
+    ] 
+}
